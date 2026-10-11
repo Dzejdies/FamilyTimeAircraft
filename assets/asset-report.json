@@ -1,0 +1,12 @@
+{
+  "units": "metres",
+  "runtimeAxes": "+Y up, +Z forward",
+  "meshes": {
+    "COL-Aircraft": 36,
+    "COL-Wreck": 36,
+    "COL-Runway": 24
+  },
+  "pilotSeats": 1,
+  "passengerSeats": 8,
+  "runtimeFormat": "FTA1 little endian"
+}

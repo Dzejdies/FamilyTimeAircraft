@@ -1,0 +1,273 @@
+{
+  "aircraft": {
+    "fta": {
+      "records": 45,
+      "triangles": 660,
+      "boundsUnity": [
+        [
+          -6.0,
+          6.0
+        ],
+        [
+          0.0,
+          3.4000000953674316
+        ],
+        [
+          -4.525000095367432,
+          4.489999920129776
+        ]
+      ],
+      "names": [
+        "CabinFloor",
+        "CabinRail-1",
+        "CabinTrim-1",
+        "CabinRail1",
+        "CabinTrim1",
+        "EngineCowling",
+        "MainWing",
+        "WingStrut-1",
+        "WingBand-1",
+        "WingStrut1",
+        "WingBand1",
+        "TailBoom",
+        "Tailplane",
+        "TailFin",
+        "Wheel-1",
+        "WheelHub-1",
+        "Gear-1",
+        "Wheel1",
+        "WheelHub1",
+        "Gear1",
+        "TailWheel",
+        "TailGear",
+        "Propeller",
+        "PropellerHub",
+        "PilotSeat",
+        "PilotBack",
+        "Pilot",
+        "Bench0",
+        "BenchBack0",
+        "Seat1",
+        "Seat2",
+        "Bench1",
+        "BenchBack1",
+        "Seat3",
+        "Seat4",
+        "Bench2",
+        "BenchBack2",
+        "Seat5",
+        "Seat6",
+        "Bench3",
+        "BenchBack3",
+        "Seat7",
+        "Seat8",
+        "AccessStep-1",
+        "AccessStep1"
+      ]
+    },
+    "glb": {
+      "meshes": 36,
+      "bytes": 54592
+    }
+  },
+  "wreck": {
+    "fta": {
+      "records": 36,
+      "triangles": 660,
+      "boundsUnity": [
+        [
+          -6.0109429359436035,
+          6.007986545562744
+        ],
+        [
+          0.0,
+          3.0963175296783447
+        ],
+        [
+          -4.525000095367432,
+          4.489999920129776
+        ]
+      ],
+      "names": [
+        "Wreck-CabinFloor",
+        "Wreck-CabinRail-1",
+        "Wreck-CabinTrim-1",
+        "Wreck-CabinRail1",
+        "Wreck-CabinTrim1",
+        "Wreck-EngineCowling",
+        "Wreck-MainWing",
+        "Wreck-WingStrut-1",
+        "Wreck-WingBand-1",
+        "Wreck-WingStrut1",
+        "Wreck-WingBand1",
+        "Wreck-TailBoom",
+        "Wreck-Tailplane",
+        "Wreck-TailFin",
+        "Wreck-Wheel-1",
+        "Wreck-WheelHub-1",
+        "Wreck-Gear-1",
+        "Wreck-Wheel1",
+        "Wreck-WheelHub1",
+        "Wreck-Gear1",
+        "Wreck-TailWheel",
+        "Wreck-TailGear",
+        "Wreck-Propeller",
+        "Wreck-PropellerHub",
+        "Wreck-PilotSeat",
+        "Wreck-PilotBack",
+        "Wreck-Bench0",
+        "Wreck-BenchBack0",
+        "Wreck-Bench1",
+        "Wreck-BenchBack1",
+        "Wreck-Bench2",
+        "Wreck-BenchBack2",
+        "Wreck-Bench3",
+        "Wreck-BenchBack3",
+        "Wreck-AccessStep-1",
+        "Wreck-AccessStep1"
+      ]
+    },
+    "glb": {
+      "meshes": 36,
+      "bytes": 53404
+    }
+  },
+  "runway": {
+    "fta": {
+      "records": 27,
+      "triangles": 288,
+      "boundsUnity": [
+        [
+          -8.0,
+          8.0
+        ],
+        [
+          -0.14000000059604645,
+          0.03749999962747097
+        ],
+        [
+          -40.0,
+          40.0
+        ]
+      ],
+      "names": [
+        "Runway",
+        "CenterDash-32",
+        "CenterDash-24",
+        "CenterDash-16",
+        "CenterDash-8",
+        "CenterDash0",
+        "CenterDash8",
+        "CenterDash16",
+        "CenterDash24",
+        "CenterDash32",
+        "Threshold-1--5",
+        "Threshold-1--3",
+        "Threshold-1--1",
+        "Threshold-1-1",
+        "Threshold-1-3",
+        "Threshold-1-5",
+        "Threshold1--5",
+        "Threshold1--3",
+        "Threshold1--1",
+        "Threshold1-1",
+        "Threshold1-3",
+        "Threshold1-5",
+        "EdgeLine-1",
+        "EdgeLine1",
+        "Parking",
+        "RunwayStart",
+        "RunwayEnd"
+      ]
+    },
+    "glb": {
+      "meshes": 24,
+      "bytes": 27956
+    }
+  },
+  "towers": {
+    "towerPair": {
+      "records": 33,
+      "triangles": 3172,
+      "boundsUnity": [
+        [
+          -7.699999809265137,
+          7.699999809265137
+        ],
+        [
+          0.0,
+          24.83999991416931
+        ],
+        [
+          -3.4000000953674316,
+          3.4000000953674316
+        ]
+      ],
+      "names": [
+        "TowerSection_0_0_Body",
+        "TowerSection_0_0_Windows",
+        "TowerSection_0_1_Body",
+        "TowerSection_0_1_Windows",
+        "TowerSection_0_2_Body",
+        "TowerSection_0_2_Windows",
+        "TowerSection_0_3_Body",
+        "TowerSection_0_3_Windows",
+        "TowerSection_0_4_Body",
+        "TowerSection_0_4_Windows",
+        "TowerSection_0_5_Body",
+        "TowerSection_0_5_Windows",
+        "TowerSection_0_6_Body",
+        "TowerSection_0_6_Windows",
+        "TowerSection_0_7_Body",
+        "TowerSection_0_7_Windows",
+        "TowerSection_1_0_Body",
+        "TowerSection_1_0_Windows",
+        "TowerSection_1_1_Body",
+        "TowerSection_1_1_Windows",
+        "TowerSection_1_2_Body",
+        "TowerSection_1_2_Windows",
+        "TowerSection_1_3_Body",
+        "TowerSection_1_3_Windows",
+        "TowerSection_1_4_Body",
+        "TowerSection_1_4_Windows",
+        "TowerSection_1_5_Body",
+        "TowerSection_1_5_Windows",
+        "TowerSection_1_6_Body",
+        "TowerSection_1_6_Windows",
+        "TowerSection_1_7_Body",
+        "TowerSection_1_7_Windows",
+        "TowerPairAnchor"
+      ]
+    },
+    "towerDebris": {
+      "records": 6,
+      "triangles": 120,
+      "boundsUnity": [
+        [
+          -0.36405766010284424,
+          6.149999976158142
+        ],
+        [
+          0.02000001072883606,
+          0.6600000262260437
+        ],
+        [
+          -0.3412247598171234,
+          0.3412247598171234
+        ]
+      ],
+      "names": [
+        "TowerDebris_0",
+        "TowerDebris_1",
+        "TowerDebris_2",
+        "TowerDebris_3",
+        "TowerDebris_4",
+        "TowerDebris_5"
+      ]
+    },
+    "glb": {
+      "meshes": 33,
+      "bytes": 171448
+    }
+  }
+}

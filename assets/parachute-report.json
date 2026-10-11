@@ -1,0 +1,10 @@
+{
+  "meshCount": 48,
+  "triangles": 1088,
+  "runtimeAxes": "+Y up, +Z forward",
+  "origin": "occupant center",
+  "canopyDiameter": 3.6,
+  "rimHeight": 2.9,
+  "crownHeight": 3.65,
+  "runtimeFormat": "FTA1"
+}
