@@ -20,7 +20,7 @@ cp assets/*.fta assets/*-thumbnail.png "$plugin_dir/assets/"
 cp README.md "$package_dir/"
 printf '%s\n' "Game variant: $variant" "Aircraft version: $aircraft_version" 'Optional multiplayer requirement: Family Time Multiplayer 0.1.14, protocol 20' > "$package_dir/BUILD.txt"
 mkdir -p "$package_dir/docs"
-cp docs/GAMEPLAY.md docs/RELEASE.md docs/VERIFICATION.md docs/AIRFIELD-RENDER-FIX.md docs/PARACHUTE-CORE-TESTS.md "$package_dir/docs/"
+cp docs/GAMEPLAY.md docs/RELEASE.md "$package_dir/docs/"
 if [[ -f "$package_dir/build/FamilyTimeAircraft.Multiplayer.dll" ]]; then
     mkdir -p "$plugin_dir/integrations"
     cp "$package_dir/build/FamilyTimeAircraft.Multiplayer.dll" "$plugin_dir/integrations/"
