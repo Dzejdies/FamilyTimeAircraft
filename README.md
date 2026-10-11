@@ -10,6 +10,18 @@ See [installation instructions](INSTALLATION.md), [gameplay and controls](docs/G
 - R boards or exits an aircraft. F remains the native child go-to command. F8 opens flight controls near an aircraft.
 - Solo play does not require Family Time Multiplayer. Multiplayer requires the matching Family Time Multiplayer 0.1.14 (protocol 20) and aircraft packages on every participant.
 
-Build 37 and Build 91 use different game assemblies; there is no universal binary. Build 91's stripped assemblies may require compatible full Unity reference assemblies when building from source.
+## Compatibility
+
+| Component | Compatible version / target |
+| --- | --- |
+| Family Time | Patreon Build 37 or Build 91; use a build made for that game's assemblies |
+| Family Time Multiplayer | Optional for solo; version 0.1.14, protocol 20, required for multiplayer aircraft |
+| Family Time Aircraft | Version 0.1.3 on every multiplayer participant |
+| Mod loader | BepInEx 5, compatible with the selected game build |
+| Linux / Steam Deck | Build 91 Linux under Proton; BepInEx launch option: `WINEDLLOVERRIDES="winhttp=n,b" %command%` |
+
+Build 37 and Build 91 use different native game assemblies, so their DLLs are not interchangeable. Build 91 Linux, Windows DX11, and Windows DX12 variants can share a multiplayer session when using matching mod versions. Build 37 peers must use the same game build. The current 0.1.3 package targets are Build 91 Linux and Windows DX11; other targets require a package built against that target's assemblies. Build 91's stripped assemblies may require compatible full Unity reference assemblies when building from source.
+
+Linux runtime checks and Windows checks through Proton have been performed. Native Windows runtime behavior has not been verified. No other gameplay mods have been compatibility-tested; plugins that alter construction menus, input, save/load, or physics may conflict.
 
 The Windows runtime checks used Proton. Native Windows runtime behavior has not been verified.
