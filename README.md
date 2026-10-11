@@ -20,6 +20,6 @@ See [installation instructions](INSTALLATION.md), [gameplay and controls](docs/G
 | Mod loader | BepInEx 5, compatible with the selected game build |
 | Linux / Steam Deck | Build 91 Linux under Proton; BepInEx launch option: `WINEDLLOVERRIDES="winhttp=n,b" %command%` |
 
-Build 37 and Build 91 use different native game assemblies, so their DLLs are not interchangeable. Build 91 Linux, Windows DX11, and Windows DX12 variants can share a multiplayer session when using matching mod versions. Build 37 peers must use the same game build. The current 0.1.3 package targets are Build 91 Linux and Windows DX11; other targets require a package built against that target's assemblies. Build 91's stripped assemblies may require compatible full Unity reference assemblies when building from source.
+Build 37 and Build 91 use different native game assemblies, so their DLLs are not interchangeable. Build 91 Linux, Windows DX11, and Windows DX12 variants can share a multiplayer session when using matching mod versions. Build 37 peers must use the same game build. Current 0.1.3 package targets are Build 37 Windows DX11 and Build 91 Linux, Windows DX11, and Windows DX12. Build 91's stripped assemblies may require compatible full Unity reference assemblies when building from source.
 
 Linux runtime checks and Windows checks through Proton have been performed. Native Windows runtime behavior has not been verified. No other gameplay mods have been compatibility-tested; plugins that alter construction menus, input, save/load, or physics may conflict.
